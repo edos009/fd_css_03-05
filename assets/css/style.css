@@ -1,0 +1,53 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #902feb;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+}
+
+.main_heading{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page_link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: yellowgreen;
+  border: 1px solid yellowgreen;
+  padding: 0 3px;
+  cursor: pointer;
+}
+
+.sub_heading{
+  font-size: 35px;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+
+.container{
+  margin-bottom: 15px;
+}
+
+.art_heading{
+  font-size: 25px;
+  font-style: italic;
+  line-height: 28px;
+  margin-bottom: 5px;
+  color: rgb(232, 98, 98);
+}
+
+.art_content{
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+}
